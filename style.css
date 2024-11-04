@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.introduction-section {
+    border: 3px solid white;
+    padding: 25px;
+    margin: 50px;
+}
+
+p {
+  color: dodgerblue;
+}
+
+article p {
+    display: inline;
+}
+
+.planet-img {
+    width: 120px;
+    border-radius: 100%;
+}
+
+footer a {
+    color: red;
+}
+
+footer a:hover {
+    color: white;
+}
