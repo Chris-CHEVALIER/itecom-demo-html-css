@@ -6,8 +6,12 @@
 }
 
 @keyframes spin {
-  from {transform:rotate(0deg);}
-  to {transform:rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 body {
@@ -85,11 +89,17 @@ main {
 
 .planet-img {
   height: 420px;
-animation: spin infinite 15s linear;
+  animation: spin infinite 15s linear;
   border-radius: 100%;
 }
 
 .contacts-bloc {
   display: flex;
   justify-content: space-around;
+}
+
+#dark-light-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
